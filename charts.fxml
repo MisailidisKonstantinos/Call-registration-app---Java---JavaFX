@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.ChartsController">
+   <children>
+      <PieChart fx:id="pChart" layoutX="303.0" prefHeight="284.0" prefWidth="600.0" title="Service's calls statistics" AnchorPane.rightAnchor="0.0" />
+      <Button fx:id="back" layoutX="270.0" layoutY="319.0" mnemonicParsing="false" onAction="#goBack" prefHeight="25.0" prefWidth="61.0" text="Go Back" AnchorPane.leftAnchor="265.0" AnchorPane.rightAnchor="265.0" AnchorPane.topAnchor="320.0" />
+   </children>
+</AnchorPane>
